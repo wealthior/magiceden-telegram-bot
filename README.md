@@ -123,8 +123,10 @@ Use [UptimeRobot](https://uptimerobot.com/) to ping your bot every 5–10 minute
 https://your-cloud-run-url/
 ```
 ---
+
 ### ✅ Done!
 You’re now monitoring Magic Eden collections in real time 🚀
+
 ---
 ### 🧪 Optional: Debug & Reset
 🔁 Reset Seen Listings
@@ -136,10 +138,22 @@ Add this at the top of `monitor_listings()`:
 ```python
 await bot.send_message(chat_id=CHAT_ID, text="🚀 Bot restarted & watching Magic Eden.")
 ```
+
 ---
+
+### 📛 Author / Branding
+
+This bot was developed and published by [Wealthior](https://wealthior.xyz).  
+Feel free to fork, remix, and deploy it — but please keep attribution.  
+Inspired by a vision of open tools for financial freedom and degen fun 🚀
+
+---
+
 ### 🤝 Credits
 Built by degen dev Wealthior. Inspired by real pain watching Magic Eden manually.
+
 ---
+
 ### 🔐 Security Tip
 Never commit `.env` or real tokens to public GitHub.
 Use `.gitignore`:
@@ -149,4 +163,5 @@ seen_*.json
 __pycache__/
 ```
 ---
+
 Happy sniping ✌️
