@@ -1,0 +1,4 @@
+.env
+seen_geocaches.json
+seen_meatbags.json
+__pycache__/
